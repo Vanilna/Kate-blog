@@ -1,0 +1,364 @@
+body {
+	background-color: #fafafa;
+	color: #6B6B6B;/*color of all texts on the page*/
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/*---------------------------------------------------------------*/
+/*NAVBAR AND LOGO---BEGINING*/
+header {
+	background-color: #FFF;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 40px; 
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 100px 0px 0px;
+	overflow: hidden;
+	float: right;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 32px 0px;
+	margin: 0px;
+}
+
+nan a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 32px 14px;
+}
+
+nav a:link, nav a:visited  {
+  color: #000;
+  font-weight: 570;
+  padding: 32px 14px;
+}
+/*
+nav li:hover {
+	background-color: #333333;
+}
+
+nav li:hover a {
+	color: #FFF;
+	font-weight: 570;
+	background-color: #333333;
+	padding: 40px 14px;
+}*/
+
+nav a:hover, nav a:active {
+	color: #FFF;
+	background-color: #6B6B6B;
+	font-weight: 570;
+	padding: 32px 14px;
+}
+
+nav a:active {
+	border: 1px dotted #fff;
+	padding: 32px 14px;
+}
+
+#logo {
+	float: left;
+	width: 18%;
+	background-color: #fff;
+	margin-left: 80px;
+	margin-right: 200px;
+	padding: 0px;
+}
+/*NAVBAR AND LOGO---END*/
+/*---------------------------------------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+/*ARTICLE TEXT AND MAIN THINGS---BEGINING*/
+.article-text, .about-me, .language, .trips, .search, .inspiration, .keys, .my-projects {
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	background-color: #fff
+}
+
+.info {
+	margin: 20px 0px;
+}
+
+.info a {
+	color: #6B6B6B !important;
+}
+
+.info p {
+	display: inline-block;
+	margin-left: 18px;
+	font-size: 1em;
+}
+
+.info p:first-child {
+	margin-left: 0px !important;
+}
+
+.article-text {
+	height: 100%;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+ h1 {
+    font-family: 'Roboto Slab', serif;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 2em;
+	font-weight: 900;
+	color: #444;
+}
+
+h2 {
+  	font-family: 'Roboto Slab', serif;
+	padding-bottom: 15px;
+	padding-top: 15px;
+    color: #DA4453;
+	font-weight: 900;
+	font-size: 1.7em;
+	padding: 10px 0px;
+  }
+
+a:link, a:visited {
+  color: #DA4453;
+  text-decoration: none;
+  }
+
+a:hover {
+	color: #C1C0C0;
+	text-decoration: none;
+}
+
+a:active {
+	color: #C1C0C0;
+	border: 1px dotted #C1C0C0;
+	text-decoration: none;
+}
+
+p, ul {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px 0px;
+  }
+  
+img {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+figcaption {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.img-begining {
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+	max-width: 100%
+}
+
+.related_posts {
+	display: inline-block;
+	display: flex;
+    justify-content: flex-end;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.related_posts a {
+	display: inline-block;
+}
+
+.related_posts li {
+	padding: 10px;
+}
+
+.related_posts li:first-child {
+	padding-left: 0px !important;
+}
+
+.related_posts li:last-child {
+	padding-right: 0px !important:
+}
+
+ul img, ul p {
+	max-width: 150px;
+	font-size: 0.9em;
+}
+
+.related_posts li img {
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	border-radius: 2px;
+}
+
+.button-back a, .button-front a {
+	display: inline-block;
+    border: 1px solid #DADADA;
+    padding: 10px 20px;
+	margin: 10px 0px;
+	font-size: 0.9em;
+}
+
+.button-front a {
+	float: right;
+}
+
+.button-back a:link, .button-back a:visited, .button-front a:link, .button-front a:visited {
+	background-color: #fff;
+}
+
+.button-back a:hover, .button-back a:active, .button-front a:hover, .button-front a:active {
+	background-color: #DA4453;
+	color: #fff !important;
+}
+
+.button-back a:active, .button-back a:active {
+	border: 1px dotted #fff;
+}
+
+.button-back b, .button-front b {
+	font-size: 1.5em;
+	font-weight: 900;
+	line-height: 10%;
+}
+
+.up a {
+	display: block;
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	padding: 10px 15px;
+	font-size: 1.5em;
+	line-height: 0%;
+	color: #fff !important;
+}
+
+.up a:link, .up a:visited {
+	background: rgba(100, 100, 100, 0.4);
+}
+
+.up a:hover, .up a:active {
+	background: rgba(218, 68, 83, 0.7);
+}
+
+/*ARTICLE TEXT AND MAIN THINGS---END*/
+/*----------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*ASIDE---BEGINING*/
+.social_bar {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.social_bar a {
+	display: inline-block;
+}
+
+.social_bar a:link, .social_bar a:visited {
+	color: #6B6B6B !important;
+}
+
+#facebook:hover, #facebook:active {
+	color: #337ab7 !important;
+	border: none;
+}
+
+#instagram:hover, #instagram:active {
+	color: #DA4453 !important;
+	border: none;
+}
+
+#twitter:hover, #twitter:active {
+	color: #1dcaff !important;
+	border: none;
+}
+
+.language, .trips, .search, .inspiration, .keys, .my-projects {
+	margin-top: 15px;
+}
+
+.language p {
+	border-bottom: 1px solid #eee;
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#Tasty-world {
+	display: block;
+	width: 130px;
+    margin: 0 auto;
+}
+
+/*ASIDE---END*/
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*FOOTER---BEGINING*/
+footer .social_bar {
+	padding-top: 10px;
+}
+
+footer {
+	background-color:  #333;
+	margin: 40px 0px 0px 0px;
+}
+
+footer a:link, footer a:visited {
+	color: #DADADA !important;
+}
+
+footer a:hover, footer a:active {
+	color: #FFF !important;
+}
+
+.site-info {
+	color: #666;
+	font-size: 12px;
+	text-align: right;
+	padding: 10px;
+}
+/*FOOTER---END*/
+/*--------------------------------------------------------------------------*/
+
