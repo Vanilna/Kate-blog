@@ -209,10 +209,10 @@ ul img, ul p {
 	margin: 10px 0px;
 	font-size: 0.9em;
 }
-
+/*
 .button-front a {
 	float: right;
-}
+}*/
 
 .button-back a:link, .button-back a:visited, .button-front a:link, .button-front a:visited {
 	background-color: #fff;
