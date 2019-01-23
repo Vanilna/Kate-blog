@@ -17,22 +17,30 @@ body {
 
 @media (min-width: 768px) {
     .navbar-header {
- 	    margin-right: 30%;
+		 padding-left: 3%;
+		 max-width: 30%;
+		 min-height: 100%;
 	}
-}
-.navbar-nav {
-	display: inline-block;
-	width: 50%;
+	
+	.navbar>.container-fluid .navbar-brand {
+        margin: 0;
+	}
+	
+	.navbar-nav {
+		float: right;
+		min-width: 70%;
+		padding-right: 9%;
+	}
 }
 
 .navbar ul {
 	list-style-type: none;
 	font-size: 0.9em;
+	justify-content: space-around;
 }
 
 .navbar-nav li {
 	padding: 2% 0%;
-	width: 15%;
 }
 
 .navbar-nav a {
