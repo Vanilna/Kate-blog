@@ -1,8 +1,15 @@
+body {
+	background-color: #fafafa;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.7;
+	color: #6B6B6B;
+}
+
 .navbar {
 	background-color: #fff!important;
 }
 
-.navbar a {
+.navbar ul a {
     font-family: 'Open Sans', serif;
 	font-size: 0.75em;
 	color: #333;
@@ -10,6 +17,104 @@
 	line-height: 2.5px;
 }
 
-.navbar a:hover, .navbar a:active {
+.navbar ul a:hover, .navbar ul a:active {
 	background-color: rgba(0,0,0,0.6);
 }
+
+.navbar-expand-sm .navbar-collapse {
+	margin: -7px;
+}
+
+.navbar-nav > li {
+	margin-left: 10px;
+	padding: 33px 5px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #DA4453;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+	color: #444;
+}
+
+aside h6 {
+	color: #636467;
+	font-size: 0.875;
+}
+
+.container a {
+	color: #DA4453;
+	text-decoration: none;
+}
+
+.container a:hover, .container a:focus {
+	color: #DADADA;
+}
+
+.info a, .info a:hover {
+	color: #6B6B6B;
+	font-size: 0.8125em;
+}
+
+.related_posts a {
+	font-size: 0.8125em;
+}
+
+figcaption {
+	font-size: 0.8125em;
+}
+
+.get-front {
+	float: right;
+}
+
+.get-back a, .get-front a {
+	background-color: #fff;
+	font-size: 0.8125em;
+}
+
+.get-back a:hover, .get-front a:hover {
+	background-color: #DA4453;
+	color: #fff;
+}
+
+.get-back span, .get-front span {
+	font-size: 1.25em;
+	font-weight: 900;
+}
+
+footer {
+	background-color: #1F1F1F;
+	font-size: 0.8125em;
+}
+
+footer .fa, .social_bar .fa {
+	font-size: 1.125em;
+}
+
+.site-info, .social_bar a {
+	color: #fff;
+}
+
+.site-info a {
+	color: #999;
+}
+
+#facebook:hover {
+	background-color: #4267b2;
+	border: none;
+}
+
+#instagram:hover {
+	background-color: #db4437;
+	border: none;
+}
+
+#twitter:hover {
+	background-color: #1da1f2;
+	border: none;
+}
+
