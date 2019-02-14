@@ -3,6 +3,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.7;
 	color: #6B6B6B;
+	transition: all;
+	transition: ease;
 }
 
 .navbar {
@@ -42,7 +44,11 @@ h3 {
 
 aside h6 {
 	color: #636467;
-	font-size: 0.875;
+	font-size: 0.875em;
+}
+
+aside h5 {
+	font-size: 1em;
 }
 
 .container a {
@@ -116,5 +122,38 @@ footer .fa, .social_bar .fa {
 #twitter:hover {
 	background-color: #1da1f2;
 	border: none;
+}
+
+.language .active {
+	background-color: #fff;
+	font-weight: 600;
+}
+
+.language {
+	font-size: 0.875em;
+}
+
+.search button:hover {
+	background-color: #444;
+	border: none;
+}
+
+.keys a {
+	background-color: #DADADA;
+	font-size: 0.75em;
+	line-height: 0.75em;
+	margin: 0.25em;
+	padding: 0.5em 0.5em;
+}
+
+.keys a:hover {
+	background-color: #db4437;
+	border: none;
+	color: #fff;
+}
+
+a:active a:visited {
+	border: none;
+	color: #fff;
 }
 
