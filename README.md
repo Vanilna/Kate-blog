@@ -4,3 +4,5 @@ Copied blog from the original http://art-of-life.com.ua/pro-robotu-u-vedmezhomu-
 I was trying to make it look in the same way as the original. 
 I've started this project near a half of a year befor (when I didn't know jet about github) and now,
 while deepening my knowlege about Bootstrap, I want to continue lerning on it.
+
+Demo - https://vanilna.github.io/Kate-blog/
