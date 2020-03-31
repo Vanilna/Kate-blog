@@ -32,6 +32,16 @@ body {
 	padding: 33px 5px;
 }
 
+.brand-img {
+	width: 130px;
+}
+
+@media (min-width: 576px) {
+	.brand-img {
+		width: 230px;
+	}
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #DA4453;
     font-weight: 700;
